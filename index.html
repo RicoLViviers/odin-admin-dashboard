@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="container">
         <div class="navbar">
@@ -19,7 +21,7 @@
                 <a href="#tasks">Tasks</a>
                 <a href="#communities">Communities</a>
             </section>
-            
+
             <section class="navbar-section">
                 <a href="#settings">Settings</a>
                 <a href="#support">Support</a>
@@ -27,7 +29,41 @@
             </section>
 
         </div>
+        <div class="dashboard">
+            <div class="head-container">
+                <div class="head">
+                    <div class="search-container">
+                        <img class="icon" src="./assets/magnify.svg" alt="Search">
+                        <input type="text" placeholder="Search...">
+                    </div>
+
+                    <div class="profile-container">
+                        <img class="icon" src="./assets/bell-ring.svg" alt="Notifications">
+                        <img class="profile-image" src="./assets/ori1.jpg" alt="Profile image">
+                        <p>Rico Viviers</p>
+                    </div>
+                </div>
+
+                <div class="sub-head">
+                    <div class="sub-profile-container">
+                        <img class="sub-image" src="assets/ori1.jpg" alt="Profile Image">
+
+                        <div class="welcome-text">
+                            <p>Hi there,</p>
+                            <p><strong>Rico Viviers (@ricolviviers)</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="sub-buttons">
+                        <button>New</button>
+                        <button>Upload</button>
+                        <button>Share</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

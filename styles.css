@@ -2,7 +2,6 @@
 {
     font-family: "Roboto", sans-serif;
     margin: 0;
-    color: white;
 }
 
 .container
@@ -13,9 +12,10 @@
 
 .navbar
 {
+    color: white;
     background-color: #1992d4;
     height: 100vh;
-    width: 40vh;
+    width: 20vw;
     padding: 15px;
 }
 
@@ -28,8 +28,148 @@
 
 .navbar a
 {
+    color: white;
     padding-top: 2vh;
     margin: 0px 10px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.dashboard
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.head-container
+{
+    box-shadow: 2px 1px 5px rgb(100, 100, 100);
+    padding-bottom: 10px;
+}
+
+.head {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 25px;
+}
+
+.sub-head {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 25px;
+}
+
+.sub-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 0;
+}
+
+.sub-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.welcome-text p:first-child {
+    font-size: 14px;
+}
+
+.welcome-text p:last-child {
+    font-size: 24px;
+}
+
+.sub-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.sub-buttons button {
+    margin-left: 0;
+}
+
+.welcome-text
+{
+    margin-left: 10px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+    max-width: 650px;
+}
+
+.search-container input {
+    box-sizing: border-box;
+    flex: 1;
+    min-width: 0;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #dadada;
+    border-radius: 20px;
+    padding: 0 15px;
+    font-size: 14px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.profile-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-container p {
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+button
+{
+    background-color: #1992d4;
+    border-style: none;
+    border-radius: 20px;
+    height: 2rem;
+    width: 6rem;
+    margin-left: 20px;
+}
+
+button:hover
+{
+    background-color: #10628f;
+    border-style: none;
+}
+
+button:active
+{
+    background-color: #1f2528;
+    border-style: none;
 }
