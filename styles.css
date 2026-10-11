@@ -39,11 +39,14 @@ body
 
 .navbar a
 {
+    display: flex;
     color: white;
     padding-top: 2vh;
     margin: 0px 10px;
     text-decoration: none;
     font-weight: bold;
+    align-items: center;
+    gap: 20px;
 }
 
 .dashboard
@@ -249,7 +252,15 @@ button:active
 {
     width: 22px;
     height: 22px;
+    object-fit: contain;
     cursor: pointer;
     margin-top: auto;
     margin-right: 12px;
+}
+
+.nav-icons
+{
+  filter: invert(1);
+  width: 1.2rem;
+  height: 1.2rem;
 }
